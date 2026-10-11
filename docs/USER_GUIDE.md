@@ -1,14 +1,16 @@
-# CPU LAB kullanım rehberi
+# CPU Atlas kullanım rehberi
+
+CPU Atlas, işlemci mimarisini görsel açıklamalar, dersler ve etkileşimli RISC-V örnekleriyle öğrenmek için hazırlanmış bir bilgi rehberidir. **Dersler** bölümünde temelden başlayabilir, **Atlas** bölümünde kavramların çalışmasını inceleyebilir, **Kaynaklar** bölümünde model ve raporların kapsamını okuyabilirsin.
 
 ## Bir komutu izlemek
 
-1. `npm run dev` ile laboratuvarı aç; `http://127.0.0.1:5196` adresine git.
+1. `npm run dev` ile CPU Atlas’ı aç; `http://127.0.0.1:5196` adresine git.
 2. **İlk toplama** deneyinde **Komut** düğmesine üç kez bas. x1 = 5, x2 = 7, x3 = 12 değerlerini gör.
 3. **Çevrim** ile IF → ID → EX → MEM → WB aşamalarını ve sağ panelde gerçek operand/sinyal değerlerini incele.
 4. Zamanlama tablosundaki çevrime veya **Önceki çevrim** düğmesine basarak aynı ikiliyi deterministik olarak yeniden yürüt.
 5. **Karşılaştır** ile aynı programı çok çevrimli RV32I ve beş aşamalı RV32IM modellerinde çalıştır. Mimari sonuçlar ile çevrim sayısını ayrı değerlendir.
 
-Çalıştırma EBREAK/ECALL veya bir hizalama/erişim/geçersiz-komut trap’inde durur. Trap kodları bu laboratuvarın yürütme ortamına aittir; privileged `mcause` CSR uygulanmaz. x0 daima sıfırdır. Bellek gecikmesi 1–20 çevrim arasında ayarlanabilir.
+Çalıştırma EBREAK/ECALL veya bir hizalama/erişim/geçersiz-komut trap’inde durur. Trap kodları Atlas’ın yürütme ortamına aittir; privileged `mcause` CSR uygulanmaz. x0 daima sıfırdır. Bellek gecikmesi 1–20 çevrim arasında ayarlanabilir.
 
 ## Beş ölçekte inceleme
 
@@ -40,7 +42,7 @@ Kısayollar: Space çalıştır/duraklat; S çevrim; I komut; sol ok önceki çe
 
 ## Kanıtları okumak
 
-**Kanıtlar** sayfası son test raporlarını, kaynak/model özetlerini, formal kapsamını, fiziksel DRC/STA/GDS sonuçlarını ve indirilebilir dosyaları gösterir. BMC 18 çevrimlik sınırlı denetimdir; üretim signoff’u veya fiziksel tablet/FPGA/silikon kabulü değildir. Çip GDS ve yerleşim, öğrenme ve mühendislik incelemesi için hazırlanmıştır.
+**Kaynaklar** sayfası son test raporlarını, kaynak/model özetlerini, formal kapsamını, fiziksel DRC/STA/GDS sonuçlarını ve indirilebilir dosyaları gösterir. BMC 18 çevrimlik sınırlı denetimdir; üretim signoff’u veya fiziksel tablet/FPGA/silikon kabulü değildir. Çip GDS ve yerleşim, öğrenme ve mühendislik incelemesi için hazırlanmıştır.
 
 Metal 0, yerel bağlantı katmanı LI1’i gösterir; 1–5 metal katmanlarını ekler. **Hücre ve katmanlar** başlığıyla ayar panelini kapatıp maskelere daha fazla alan açabilirsin.
 
@@ -52,4 +54,4 @@ The five views cover architecture, datapath, an explanatory full adder plus real
 
 Import ELF32 for binary execution or a generated C experiment JSON for source-line mapping. Export/import experiments to replay the exact cycle/configuration/binary. Workspace/language/lesson progress persist locally. Space runs/pauses; S steps a cycle; I steps an instruction; Left rewinds; Escape closes the comparison. 2D fallback is keyboard accessible; 3D can be recreated after context loss. FPS measures the current scene.
 
-Evidence separates functional RTL, independent Spike checks, bounded formal checks, zero-delay mapped gates and physical artifacts. The execution environment is freestanding, entry PC zero, 64 KiB code and data, UART/GPIO MMIO. This target has no privileged CSRs, interrupts, virtual memory or Linux. Manufacturing and physical-device acceptance are outside the delivered educational lab.
+Evidence separates functional RTL, independent Spike checks, bounded formal checks, zero-delay mapped gates and physical artifacts. The execution environment is freestanding, entry PC zero, 64 KiB code and data, UART/GPIO MMIO. This target has no privileged CSRs, interrupts, virtual memory or Linux. Manufacturing and physical-device acceptance are outside the educational scope of CPU Atlas.

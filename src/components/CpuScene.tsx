@@ -18,7 +18,7 @@ function Block({id,name,position,size,color,selected,onSelect,value}: {id:string
 }
 function Architecture(p:Props){const dy=p.explode?1.0:0;return <group>
  <mesh position={[0,-.22,0]} receiveShadow><boxGeometry args={[11.2,.38,5]}/><meshStandardMaterial color="#dde5ee" roughness={.45}/></mesh>
- <Html position={[-4.2,.04,1.92]} rotation={[-Math.PI/2,0,0]} transform><div className="board-title">CPU LAB / RISC-V</div></Html>
+ <Html position={[-4.2,.04,1.92]} rotation={[-Math.PI/2,0,0]} transform><div className="board-title">CPU Atlas / RISC-V</div></Html>
  {parts.map(part=>{const pos=[...part.position] as [number,number,number];if(p.explode)pos[1]+=part.id==='control'?1.2:dy;return <Block key={part.id} id={part.id} name={part.name} position={pos} size={part.size as [number,number,number]} color={part.color} selected={p.selected===part.id} onSelect={p.onSelect} value={part.id==='pc'?hex(p.frame?.pc??0):part.id==='alu'?`${p.frame?.a??0} → ${p.frame?.result??0}`:part.id==='registers'?'32 × 32 bit':undefined}/>;})}
  {p.frame?.stages.map((stage,i)=>stage.valid?<group key={i} position={[-4+i*2,.62+dy,1.1]}><mesh><sphereGeometry args={[.09,12,12]}/><meshStandardMaterial color={i===2?'#ed9338':'#17a3ac'} emissive="#17a3ac" emissiveIntensity={.3}/></mesh><Html position={[0,-.2,.1]}>{['IF','ID','EX','MEM','WB'][i]} {hex(stage.pc,2)}</Html></group>:null)}
  {[-3.5,-1.5,.8,2.9].map((x,i)=><Line key={i} points={[[x,.5+dy,0],[x+.8,.5+dy,0]]} color={i%2?'#10a2ae':'#1768d7'} lineWidth={p.frame?.stall?2:4}/>)}

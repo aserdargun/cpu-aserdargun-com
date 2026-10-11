@@ -1,4 +1,4 @@
-# CPU LAB architecture and execution contract
+# CPU Atlas architecture and execution contract
 
 ## Implemented processors
 

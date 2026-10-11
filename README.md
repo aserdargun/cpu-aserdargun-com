@@ -1,6 +1,8 @@
-# CPU LAB · RISC-V dijital ikiz / digital twin
+# CPU Atlas · İşlemci mimarisi ve RISC-V rehberi / Processor architecture and RISC-V guide
 
-Özgün SystemVerilog işlemcileri gerçek Verilator/WASM simülasyonuyla çalıştıran, Türkçe/İngilizce 3D öğrenme ve mühendislik laboratuvarı. Programdan saat çevrimine, yazmaçlara, mantık kapılarına, CMOS deneylerine ve SKY130 fiziksel maskelerine kadar inceleyebilirsiniz.
+İşlemcilerin nasıl çalıştığını anlatan Türkçe/İngilizce bilgi ve öğrenme rehberi. 12 ders ve beş görsel katman, komutlardan veri yoluna, mantık kapılarından transistörlere ve fiziksel yerleşime uzanan bir öğrenme yolu sunar. Etkileşimli RISC-V örnekleri, özgün SystemVerilog işlemcilerini Verilator/WASM simülasyonuyla çalıştırarak anlatılan kavramları adım adım incelemeyi sağlar.
+
+A bilingual knowledge and learning guide to how processors work. Twelve lessons and five visual layers connect instructions, datapaths, logic gates, transistors and physical layout. Interactive RISC-V examples run original SystemVerilog processors through Verilator/WASM to illustrate the concepts step by step.
 
 ## Çalıştır / Run
 
@@ -9,9 +11,9 @@ npm ci
 npm run dev
 ```
 
-[Laboratuvarı aç](http://127.0.0.1:5196). Hazır deneyi seçip **Çalıştır** düğmesine basın. **Çevrim** ve **Komut** düğmeleri yürütmeyi adım adım gösterir. **Karşılaştır**, iki çekirdeğin aynı programdaki sonuçlarını ve çevrim sayılarını karşılaştırır. **Ayır**, **Kesit** ve sürükleme/yakınlaştırma ile 3D yapıyı inceleyin. **Fiziksel → GDS maskelerini aç**, seçilen hücrenin gerçek XY maskelerini gösterir; **Hücre ve katmanlar** panelini kapatarak görünümü büyütebilirsiniz.
+[CPU Atlas’ı aç](http://127.0.0.1:5196). Hazır deneyi seçip **Çalıştır** düğmesine basın. **Çevrim** ve **Komut** düğmeleri yürütmeyi adım adım gösterir. **Karşılaştır**, iki çekirdeğin aynı programdaki sonuçlarını ve çevrim sayılarını karşılaştırır. **Ayır**, **Kesit** ve sürükleme/yakınlaştırma ile 3D yapıyı inceleyin. **Fiziksel → GDS maskelerini aç**, seçilen hücrenin gerçek XY maskelerini gösterir; **Hücre ve katmanlar** panelini kapatarak görünümü büyütebilirsiniz.
 
-Open the lab, choose a program and Run. Step cycles/instructions, compare both cores, inspect live state and scrub the timeline. Physical cell search opens actual SKY130 mask polygons. Switch TR/EN in the header. All runtime artifacts and fonts are local; no account/API key is needed.
+Open CPU Atlas, choose a program and Run. Step cycles/instructions, compare both cores, inspect live state and scrub the timeline. Physical cell search opens actual SKY130 mask polygons. English is the default language. The page title is `CPU - RISC-V Processor Architecture`; switch TR/EN in the header. All runtime artifacts and fonts are local; no account/API key is needed.
 
 ## İçerik / Contents
 
@@ -31,7 +33,7 @@ python3 scripts/verify_artifacts.py
 npm run build
 ```
 
-[Makine tarafından okunabilir kabul raporu](public/evidence/verification.json), çalıştırılmış testleri, gerçek performans ölçümlerini, kaynak SHA-256 özetlerini ve fiziksel sınırları kaydeder. Tarayıcıdaki **Kanıtlar / Evidence** sayfasından aynı raporları ve GDS dosyalarını indirebilirsiniz. Kontrol komutları mühendislik araçları gerektirir; önceden üretilmiş laboratuvarı açmak için Node/npm yeterlidir.
+[Makine tarafından okunabilir kabul raporu](public/evidence/verification.json), çalıştırılmış testleri, gerçek performans ölçümlerini, kaynak SHA-256 özetlerini ve fiziksel sınırları kaydeder. Tarayıcıdaki **Kaynaklar / Sources** sayfasından aynı raporları ve GDS dosyalarını indirebilirsiniz. Kontrol komutları mühendislik araçları gerektirir; önceden üretilmiş CPU Atlas’ı açmak için Node/npm yeterlidir.
 
 ## Mühendislik akışını yeniden üret / Reproduce
 
@@ -41,7 +43,7 @@ CPU entry PC=0; program/data RAM 64 KiB each at 0x00000000/0x10000000; UART/GPIO
 
 ## GitHub / Azure publication
 
-Public repository: [aserdargun/cpu-aserdargun-com](https://github.com/aserdargun/cpu-aserdargun-com). Azure URL: [CPU LAB](https://happy-field-0e86cdc03.1.azurestaticapps.net). See [deployment contract](docs/DEPLOYMENT.md). The single production workflow builds `dist/` on `main`, runs the 55 portable assembler/RTL-WASM/mapped-gate checks plus DEF parser tests, verifies the previously generated engineering evidence against source hashes and uploads the prebuilt site to `swa-cpu-aserdargun-com` (West Europe, Free). Native Spike/formal/OpenROAD work is reproduced locally using TOOLCHAIN.md; CI does not claim to rerun those tools. `/release.json` records the actual deployed Git commit, run ID and hashes of every asset.
+Public repository: [aserdargun/cpu-aserdargun-com](https://github.com/aserdargun/cpu-aserdargun-com). Production URL: [CPU Atlas](https://cpu.aserdargun.com). Azure URL: [generated hostname](https://happy-field-0e86cdc03.1.azurestaticapps.net). See [deployment contract](docs/DEPLOYMENT.md). The single production workflow builds `dist/` on `main`, runs the 55 portable assembler/RTL-WASM/mapped-gate checks plus DEF parser tests, verifies the previously generated engineering evidence against source hashes and uploads the prebuilt site to `swa-cpu-aserdargun-com` (West Europe, Free). Native Spike/formal/OpenROAD work is reproduced locally using TOOLCHAIN.md; CI does not claim to rerun those tools. `/release.json` records the actual deployed Git commit, run ID and hashes of every asset.
 
 Run browser acceptance against a live deployment with:
 

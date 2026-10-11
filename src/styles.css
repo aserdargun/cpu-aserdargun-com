@@ -12,3 +12,7 @@
 .evidence-boundary{margin-top:20px}
 
 .physical-overlay{display:block}.physical-overlay summary{cursor:pointer;font-size:11px;font-weight:700;list-style-position:inside}.physical-fields{display:grid;gap:7px;margin-top:8px}.physical-overlay:not([open]){width:auto;max-width:calc(100% - 120px)}
+
+.atlas-intro{display:flex;align-items:center;gap:24px;padding:18px 24px;background:#edf4ff;border-bottom:1px solid var(--border)}.atlas-intro>div{max-width:940px;min-width:0}.atlas-intro h2{font-size:20px;letter-spacing:-.4px;margin-bottom:5px}.atlas-intro p{font-size:13px;line-height:1.65;color:#506783}.atlas-intro>.text-button{margin-left:auto;font-size:13px;flex-shrink:0}.app-header .tagline{max-width:270px;line-height:1.5}
+@media(max-width:960px){.atlas-intro{padding:16px;gap:16px}}
+@media(max-width:640px){.atlas-intro{align-items:flex-start;flex-direction:column;gap:8px;padding:16px 12px}.atlas-intro h2{font-size:19px}.atlas-intro>.text-button{margin-left:0;padding-left:0}}

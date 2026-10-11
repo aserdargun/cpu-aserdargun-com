@@ -1,7 +1,7 @@
 {
   "environment": "Chromium on development host; tablet viewport emulation, not physical tablet",
   "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
-  "pauseWorkerLatencyMs": 0.1,
+  "pauseWorkerLatencyMs": 0,
   "measurements": [
     {
       "viewport": {
@@ -9,11 +9,11 @@
         "height": 1000
       },
       "scene": "system",
-      "frames": 121,
+      "frames": 120,
       "fps": 60,
-      "p95Ms": 17.2,
+      "p95Ms": 17.9,
       "drawCalls": 32,
-      "triangles": 666
+      "triangles": 670
     },
     {
       "viewport": {
@@ -22,10 +22,10 @@
       },
       "scene": "system",
       "frames": 121,
-      "fps": 60.1,
-      "p95Ms": 17.2,
+      "fps": 60,
+      "p95Ms": 17.6,
       "drawCalls": 32,
-      "triangles": 666
+      "triangles": 670
     }
   ],
   "physicalMeasurements": [
@@ -37,9 +37,9 @@
       "scene": "rv32im detailed physical routing",
       "frames": 121,
       "fps": 60,
-      "p95Ms": 16.8,
+      "p95Ms": 17.4,
       "drawCalls": 5,
-      "triangles": 432184
+      "triangles": 139142
     },
     {
       "viewport": {
@@ -48,10 +48,10 @@
       },
       "scene": "rv32im detailed physical routing",
       "frames": 121,
-      "fps": 60,
-      "p95Ms": 16.9,
+      "fps": 60.2,
+      "p95Ms": 17.2,
       "drawCalls": 5,
-      "triangles": 432184
+      "triangles": 139142
     }
   ],
   "physicalDefSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768"

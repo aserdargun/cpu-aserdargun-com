@@ -1,6 +1,6 @@
 # Mühendislik araç zinciri / Engineering toolchain
 
-Hazır `public/` dosyalarıyla laboratuvarı açmak için Node yeterlidir. RTL, kapı modeli ve fiziksel çıktıları yeniden üretmek aşağıdaki yerel araçları gerektirir. Bu akış macOS üzerinde doğrulandı. Fiziksel araç, yalnızca bu proje için oluşturulan `cpu-lab` Lima VM içinde çalışır.
+Hazır `public/` dosyalarıyla CPU Atlas’ı açmak için Node yeterlidir. RTL, kapı modeli ve fiziksel çıktıları yeniden üretmek aşağıdaki yerel araçları gerektirir. Bu akış macOS üzerinde doğrulandı. Fiziksel araç, yalnızca bu proje için oluşturulan `cpu-lab` Lima VM içinde çalışır.
 
 The checked-in browser artifacts run with Node alone. Regenerating them uses native host tools and a dedicated Linux VM. Commands below are sequential; do not overwrite mapped outputs while a matching gate model is being built.
 

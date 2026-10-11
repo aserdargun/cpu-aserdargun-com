@@ -1,4 +1,4 @@
-name: Publish CPU LAB
+name: Publish CPU Atlas
 on:
   push:
     branches: [main]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "functional-verified-physical-issues",
-  "completedAt": "2026-10-11T12:38:25.662897+00:00",
+  "completedAt": "2026-10-11T19:04:23.904347+00:00",
   "tests": {
     "passed": 85,
     "failed": 0
@@ -17,7 +17,7 @@
   "performance": {
     "environment": "Chromium on development host; tablet viewport emulation, not physical tablet",
     "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
-    "pauseWorkerLatencyMs": 0.1,
+    "pauseWorkerLatencyMs": 0,
     "measurements": [
       {
         "viewport": {
@@ -25,11 +25,11 @@
           "height": 1000
         },
         "scene": "system",
-        "frames": 121,
+        "frames": 120,
         "fps": 60,
-        "p95Ms": 17.2,
+        "p95Ms": 17.9,
         "drawCalls": 32,
-        "triangles": 666
+        "triangles": 670
       },
       {
         "viewport": {
@@ -38,10 +38,10 @@
         },
         "scene": "system",
         "frames": 121,
-        "fps": 60.1,
-        "p95Ms": 17.2,
+        "fps": 60,
+        "p95Ms": 17.6,
         "drawCalls": 32,
-        "triangles": 666
+        "triangles": 670
       }
     ],
     "physicalMeasurements": [
@@ -53,9 +53,9 @@
         "scene": "rv32im detailed physical routing",
         "frames": 121,
         "fps": 60,
-        "p95Ms": 16.8,
+        "p95Ms": 17.4,
         "drawCalls": 5,
-        "triangles": 432184
+        "triangles": 139142
       },
       {
         "viewport": {
@@ -64,10 +64,10 @@
         },
         "scene": "rv32im detailed physical routing",
         "frames": 121,
-        "fps": 60,
-        "p95Ms": 16.9,
+        "fps": 60.2,
+        "p95Ms": 17.2,
         "drawCalls": 5,
-        "triangles": 432184
+        "triangles": 139142
       }
     ],
     "physicalDefSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768"
@@ -2097,19 +2097,19 @@
     "rtl/cache.sv": "d03e2cd5bf5d759ca75fe871fe4dc53af102ab64654fc05a5e3b5d5cbed214b6",
     "rtl/lab_soc.sv": "3e3a1e63207e519cff7772040828b1b4ea6ccb90413f59c6c2e2af22a28d5084",
     "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d",
-    "src/App.tsx": "557aeb32d8cff6ce2d5e686279d61eca2c067679dc858c016ec06682c828a4b5",
+    "src/App.tsx": "df95c8d2bac1325569d54d28167eb625d48198ad851359f9b551a7a33715918f",
     "src/main.tsx": "eafdcc8e531e6124d0a4500ec1febfd960edd34e03b28150ff6ac301060fa83f",
-    "src/styles.css": "127bf6258eeaf304f7d06da226233af4f57d541df8e4055eab1ecd8acd1386f6",
+    "src/styles.css": "2e4b8866abb438d4a83d7f6d74e33daf76902900fe42edccfc05fd19acdb44f0",
     "src/content/components.ts": "73f809576e4fec5c3f2153da153cc12e350a704194c562b1514edecaee572f25",
     "src/content/programs.ts": "9471fed8199c62b5f98bf38a9cd7beff046d9a53bc0ec6e96ef4fbcc34732c5c",
-    "src/content/lessons.ts": "3afbbd2bfcf3395452f1ce4093240a637cd494b114ee499d1968707f4119add9",
-    "src/components/CpuScene.tsx": "6c6b55db685125b90413cd18aa394cd00cf83e57066de55dafd97820dc556dbe",
+    "src/content/lessons.ts": "afa626c8494e0fbba610e3fb726c69b12c8873d68f25da08fee54af85fef54ed",
+    "src/components/CpuScene.tsx": "f005cf70dd8894791ededc507c8f77082808e3f66f213ce0f9ebb0f1147efdcb",
     "src/components/SceneMeasure.tsx": "1edf6aaf280eb435930c69962ff7c05aad971f5215527ff6594bb0c9d23889b5",
     "src/components/GateExplorer.tsx": "bb182ed914e521db6b649e4e26cefdf0b56022f572275be398024daf4d7c86b3",
     "src/components/Panels.tsx": "6992b9725652d619d005b6e540fb1887906fb510b561e24df5d1d7a66a77d245",
     "src/components/PhysicalScene.tsx": "6d49c4a4ca391f97f5bbfc06f5ad64f41283ef4f9f2f2dc7b5f308959fced9c2",
     "src/components/CellGeometry.tsx": "a1bef7e15f431147025b7e79e8aec4b9f73ca07c9990d038f9e3ed2ad75818d3",
-    "src/components/Evidence.tsx": "427cb56cf92874510c032bf77b507dde1ac8fb8d2a6b962e114afd1aaceb044c",
+    "src/components/Evidence.tsx": "63774741480a4bcc53210deed66b3a0ef375a6d747bb049b21e65f95ac2c690b",
     "src/sim/useSimulation.ts": "af0aeef484b516d95c16793778169f5670db5a5f983dc11af14368e349594e8a",
     "src/sim/gateWorker.ts": "0d6dd2363b2fb7be3e88ace6459f30ff705abbd07513bd9951e3144773da4aa5",
     "src/sim/assembler.ts": "d4389f07a519db3412dc501785a0db04e84bda4b8c79bf1b2c8548f85ff4917b",
@@ -2150,7 +2150,7 @@
     "tests/def_routes_test.py": "bdcf2fd5ee6a3e555b309fda036389476fe51110148033cc5ada0855e7f3f2fc",
     "tests/rtl.test.ts": "0f575a52728593c5ef7895c61294cfb095ecb6f2dc31ab919272ca84137fc085",
     "tests/spike.test.ts": "6c451ffd5cc720a4a02bf6108ea399c21a84449f870c8c83fa88f4b24894dd4f",
-    "tests/browser/workbench.spec.ts": "29f24e9962e50b8ce6f6e0e6a4b1130e14712a5437b911b552fa2a29ba99fc92"
+    "tests/browser/workbench.spec.ts": "d347bf4b93b0ed51710b0e851214658fefd81b8e899a6dff95de112e5d29e683"
   },
   "boundaries": [
     "BMC cycle 18, RV32I instruction checks; M arithmetic tested with Spike",

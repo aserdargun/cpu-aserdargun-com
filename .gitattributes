@@ -1,0 +1,7 @@
+# Preserve exact tool outputs and third-party license bytes; omit noisy text diffs.
+public/sim/*-gates.js -text -diff linguist-generated=true
+public/physical/*-antenna.rpt -text -diff linguist-generated=true
+public/fonts/*OFL.txt -text -diff linguist-vendored=true
+public/fonts/DM-Sans-OFL.txt -text -diff linguist-vendored=true
+*.wasm binary
+*.gds binary

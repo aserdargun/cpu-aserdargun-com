@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "core": "rv32i",
+  "kind": "physical-layout",
+  "physical": true,
+  "status": "detailed-routed",
+  "units": "um",
+  "platform": "SKY130 HD TT 25C 1.8V",
+  "die": [
+    0.0,
+    0.0,
+    544.3,
+    544.3
+  ],
+  "cellCount": 11589,
+  "netCount": 8124,
+  "routeSegmentCount": 89950,
+  "cellFormat": [
+    "instance",
+    "master",
+    "x",
+    "y",
+    "width",
+    "height",
+    "orientation"
+  ],
+  "routeFormat": [
+    "net",
+    "layer",
+    "x1",
+    "y1",
+    "x2",
+    "y2"
+  ],
+  "routeGeometry": "DEF centerlines; full width, cut and via geometry is in the native GDS",
+  "metalHeights": "illustrative exploded layer spacing; XY is exact DEF geometry",
+  "sourceHash": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+  "defSha256": "4f68ac1ef0fc82b13a78f064b5078c74b116ed97e22a8f8442d282b916fc3414",
+  "platformCommit": "3451ca1f56902a49baf50bb8eba345eb709cf9c8",
+  "timing": {
+    "clockTargetNs": 100,
+    "worstSlackNs": 88.01,
+    "cellAreaUm2": 97731.0
+  },
+  "manufacturingSignoff": false,
+  "routerDrcViolations": 0,
+  "drcScope": "OpenROAD detailed-router DRC, not full foundry DRC/LVS signoff",
+  "postRouteTiming": {
+    "core": "rv32i",
+    "defSha256": "4f68ac1ef0fc82b13a78f064b5078c74b116ed97e22a8f8442d282b916fc3414",
+    "clockTargetNs": 100,
+    "parasitics": "OpenRCX extracted routed RC, SKY130 platform rcx_patterns.rules",
+    "worstSlackNs": 89.06,
+    "tnsNs": 0.0,
+    "timingTargetMet": true,
+    "spefSha256": "45357b4c4c85d02fd9bf9d337cab7ae1bce2a61bbccd230a02c945c40c4d9425",
+    "antennaNetViolations": 14,
+    "antennaPinViolations": 18,
+    "antennaReport": "/physical/rv32i-antenna.rpt",
+    "manufacturingSignoff": false
+  },
+  "runtime": "OpenROAD 2.0-17598-ga008522d8",
+  "rtlManifest": {
+    "rtl": {
+      "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+      "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+      "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d"
+    },
+    "core": "rv32i",
+    "pipeline": 0,
+    "mExtension": 0
+  },
+  "mappedSha256": "0c0da1cf3723d3c3b69cb7deb2671e57480e5faef649515297c2ca00399bd34c"
+}

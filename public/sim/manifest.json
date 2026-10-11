@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": "SystemVerilog \u2192 Verilator \u2192 Emscripten",
+  "rtl": {
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/full_adder.sv": "3caa9e6c3104d14a287e03ba0d1f231f8922e3df511a91eb9f7998e812a74707",
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/cache.sv": "d03e2cd5bf5d759ca75fe871fe4dc53af102ab64654fc05a5e3b5d5cbed214b6",
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/lab_soc.sv": "3e3a1e63207e519cff7772040828b1b4ea6ccb90413f59c6c2e2af22a28d5084",
+    "/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d"
+  },
+  "tools": {
+    "verilator": "Verilator 5.052 2026-09-05 rev vUNKNOWN-built20260905",
+    "emcc": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10-git"
+  },
+  "models": {
+    "rv32i": "7aeb8dbfeb685ad2d063167c4783556ef539b69a91b1a94afb7f2ce09ec4e7d1",
+    "rv32im": "b8d7a64702f6fc50001a21c56ca40c26b4fb68fc69d5d0286b0af4fe8ddb8230"
+  }
+}

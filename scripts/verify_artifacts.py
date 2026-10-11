@@ -1,0 +1,61 @@
+"""Correlate final test reports and engineering artifacts; publish only real evidence."""
+import pathlib,json,hashlib,datetime,re,shutil,sys,subprocess,unittest,math
+root=pathlib.Path(__file__).resolve().parents[1];public=root/'public';checks=[]
+def read(path):return json.loads((root/path).read_text())
+def sha(path):return hashlib.sha256((root/path).read_bytes()).hexdigest()
+def check(name,condition):
+ checks.append({'check':name,'passed':bool(condition)})
+ if not condition:raise RuntimeError(name)
+unit=read('build/evidence/unit-tests.json');browser=read('build/evidence/browser-tests.json')
+check('Functional tests completed without failures',unit['success']and unit['numFailedTests']==0 and unit['numPassedTests']>=85)
+check('Browser workflows completed without skips or failures',browser['stats']['unexpected']==0 and browser['stats']['skipped']==0 and browser['stats']['expected']>=9 and not browser.get('errors'))
+manifest=read('public/sim/manifest.json')
+for path,digest in manifest['rtl'].items():
+ relative=pathlib.Path(path).relative_to(root)if pathlib.Path(path).is_absolute()else pathlib.Path(path)
+ check('RTL source '+str(relative),sha(relative)==digest)
+for name in ['rv32i','rv32im']:
+ check(name+' WASM model',sha(f'public/sim/{name}.wasm')==manifest['models'][name])
+ proof=read(f'public/sim/{name}-formal.json');check(name+' ISA BMC results',len(proof['results'])==37 and set(proof['results'].values())=={'PASS'})
+ for path,digest in proof['sourceHashes'].items():check(name+' formal source '+path,sha(path)==digest)
+ mapped=read(f'public/physical/{name}-designmap.json')
+ for extension in ['js','wasm']:check(name+' gate '+extension,sha(f'public/sim/{name}-gates.{extension}')==mapped[extension+'Sha256'])
+ check(name+' gate bridge',sha('sim/gate_bridge.cpp')==mapped['bridgeSha256'])
+ check(name+' mapped netlist',sha(f'build/physical/{name}/mapped.v')==mapped['mappedSha256'])
+ report=read(f'public/physical/{name}-report.json');check(name+' detailed routing',report['status']=='detailed-routed')
+ check(name+' physical/gate correspondence',report['mappedSha256']==mapped['mappedSha256'])
+ check(name+' physical source',sha('rtl/cpu.sv')==report['sourceHash'])
+ for path,digest in report['rtlManifest']['rtl'].items():check(name+' physical source '+path,sha(path)==digest)
+ check(name+' DEF',sha(f'build/physical/{name}/routed.def')==report['defSha256'])
+ gds=read(f'public/physical/{name}-gds.json');check(name+' GDS read-back',gds['mergeErrors']==0 and sha(f'public/physical/{name}.gds')==gds['sha256']and gds['defSha256']==report['defSha256'])
+ check(name+' post-route RC/STA',report.get('postRouteTiming',{}).get('defSha256')==report['defSha256'])
+ check(name+' extracted SPEF',report['postRouteTiming']['spefSha256']==sha(f'build/physical/{name}/routed.spef'))
+ check(name+' timing result recorded',math.isfinite(report['postRouteTiming']['worstSlackNs'])and math.isfinite(report['postRouteTiming']['tnsNs']))
+ check(name+' router DRC report recorded',isinstance(report.get('routerDrcViolations'),int))
+core=read('public/sim/core-properties.json');check('Core properties BMC',core['status']=='PASS')
+for path,digest in core['sourceHashes'].items():check('Core properties source '+path,sha(path)==digest)
+spike=read('public/sim/spike-manifest.json');check('Spike adapter',spike['adapterSha256']==sha('sim/spike_reference.cpp'))
+c=read('public/programs/sum.debug.json');check('C sample ELF',c['elfSha256']==sha('public/programs/sum.elf'))
+for network in ['inverter','nand','chain']:check(network+' ngspice truth checks',read(f'public/sim/{network}.json')['steadyTruthChecks']==10)
+cells=read('public/physical/cells/manifest.json');check('Complete GDS master library',len(cells['cells'])==437)
+for entry in cells['cells']:
+ cell=read('public/physical/cells/'+entry['master']+'.json')
+ check('GDS master '+entry['master'],cell['gdsSha256']==cells['sourceSha256']and len(cell['layers'])==entry['layers']and sum(len(layer['polygons'])for layer in cell['layers'])==entry['polygons'])
+suite=unittest.defaultTestLoader.discover(str(root/'tests'),pattern='def_routes_test.py');parser_result=unittest.TextTestRunner().run(suite);check('DEF route parser regression tests',parser_result.wasSuccessful()and parser_result.testsRun==3)
+performance=read('build/evidence/browser-performance.json');check('Measured worker pause under 100 ms',performance['pauseWorkerLatencyMs']<100)
+audit=read('build/evidence/npm-audit.json');check('Runtime dependency audit',audit['metadata']['vulnerabilities']['total']==0)
+check('Desktop/tablet viewport rendering targets',len(performance['measurements'])==2 and performance['measurements'][0]['fps']>=50 and performance['measurements'][1]['fps']>=30)
+check('Measured physical scene corresponds to final DEF',performance.get('physicalDefSha256')==read('public/physical/rv32im-report.json')['defSha256'])
+check('Full routed RV32IM scene rendering targets',len(performance.get('physicalMeasurements',[]))==2 and performance['physicalMeasurements'][0]['fps']>=50 and performance['physicalMeasurements'][1]['fps']>=30)
+sourceHashes={str(p.relative_to(root)):sha(p.relative_to(root))for folder in ['rtl','src','sim','scripts','formal','tests']for p in (root/folder).rglob('*')if p.is_file()and p.suffix in ['.sv','.ts','.tsx','.css','.cpp','.py','.tcl','.sby']and not any(v in str(p.relative_to(root))for v in ['__pycache__','formal/core/'])}
+physical_clean=all(read(f'public/physical/{name}-report.json')['routerDrcViolations']==0 and read(f'public/physical/{name}-report.json')['postRouteTiming']['antennaNetViolations']==0 and read(f'public/physical/{name}-report.json')['postRouteTiming']['worstSlackNs']>=0 for name in ['rv32i','rv32im'])
+result={'schemaVersion':1,'status':'verified' if physical_clean else 'functional-verified-physical-issues','completedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'tests':{'passed':unit['numPassedTests'],'failed':unit['numFailedTests']},'browser':{'passed':browser['stats']['expected'],'failed':browser['stats']['unexpected']},'defParser':{'passed':parser_result.testsRun,'failed':len(parser_result.failures)+len(parser_result.errors)},'performance':performance,'checks':checks,'sourceHashes':sourceHashes,'boundaries':['BMC cycle 18, RV32I instruction checks; M arithmetic tested with Spike','Mapped functional gate simulation is zero-delay and cacheless','Geometry vertical spacing illustrative; no manufacturing/physical-device acceptance'],'physical':{name:read(f'public/physical/{name}-report.json')for name in ['rv32i','rv32im']}}
+(public/'evidence').mkdir(exist_ok=True)
+for name in ['unit-tests.json','browser-tests.json','browser-performance.json','npm-audit.json']:shutil.copyfile(root/'build/evidence'/name,public/'evidence'/name)
+shutil.copyfile(root/'build/toolchain-check.json',public/'evidence/toolchain.json')
+(public/'evidence/verification.json').write_text(json.dumps(result,indent=2))
+for folder in ['rtl','sim','formal']:
+ destination=public/'source'/folder;destination.mkdir(parents=True,exist_ok=True)
+ for p in (root/folder).iterdir():
+  if p.is_file()and p.suffix in ['.sv','.cpp','.sby']:shutil.copyfile(p,destination/p.name)
+shutil.copytree(root/'docs/licenses',public/'licenses',dirs_exist_ok=True)
+print(f"{len(checks)} correlated artifact checks; {unit['numPassedTests']} functional and {browser['stats']['expected']} browser tests")

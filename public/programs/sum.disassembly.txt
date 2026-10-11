@@ -1,0 +1,56 @@
+
+/Users/aserdargun/Documents/ChatGPT/cpu-aserdargun-com/public/programs/sum.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <_start>:
+.section .text.start
+.global _start
+_start:
+  lui sp, 0x10010
+   0:	10010137          	lui	sp,0x10010
+  addi sp, sp, -16
+   4:	ff010113          	addi	sp,sp,-16 # 1000fff0 <result+0xffdc>
+  jal ra, main
+   8:	00c000ef          	jal	14 <main>
+  ebreak
+   c:	00100073          	ebreak
+1: j 1b
+  10:	0000006f          	j	10 <_start+0x10>
+
+00000014 <main>:
+/* Bare-metal RV32I. ELF loader initializes data and zeroes bss. */
+volatile unsigned values[5] = {3,7,11,13,17};
+volatile unsigned result;
+void main(void) {
+    unsigned total = 0;
+    for (unsigned i=0;i<5;i++) total += values[i];
+  14:	00000793          	li	a5,0
+    unsigned total = 0;
+  18:	00000693          	li	a3,0
+    for (unsigned i=0;i<5;i++) total += values[i];
+  1c:	10000637          	lui	a2,0x10000
+  20:	00060613          	mv	a2,a2
+  24:	00500593          	li	a1,5
+  28:	00279713          	slli	a4,a5,0x2
+  2c:	00e60733          	add	a4,a2,a4
+  30:	00072703          	lw	a4,0(a4)
+  34:	00e686b3          	add	a3,a3,a4
+  38:	00178793          	addi	a5,a5,1
+  3c:	feb796e3          	bne	a5,a1,28 <main+0x14>
+    result = total;
+  40:	100007b7          	lui	a5,0x10000
+  44:	00d7aa23          	sw	a3,20(a5) # 10000014 <result>
+    *(volatile unsigned*)0x20000004 = total & 255;
+  48:	0ff6f693          	zext.b	a3,a3
+  4c:	200007b7          	lui	a5,0x20000
+  50:	00d7a223          	sw	a3,4(a5) # 20000004 <result+0xffffff0>
+    *(volatile unsigned char*)0x20000000 = 'O';
+  54:	04f00713          	li	a4,79
+  58:	00e78023          	sb	a4,0(a5)
+    *(volatile unsigned char*)0x20000000 = 'K';
+  5c:	04b00713          	li	a4,75
+  60:	00e78023          	sb	a4,0(a5)
+}
+  64:	00008067          	ret

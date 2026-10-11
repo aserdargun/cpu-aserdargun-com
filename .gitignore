@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.cache/
+build/
+artifacts/*.log
+.DS_Store
+formal/core/
+
+*.tsbuildinfo
+__pycache__/
+ci-tests.json

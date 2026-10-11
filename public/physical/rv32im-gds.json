@@ -1,0 +1,18 @@
+{
+  "core": "rv32im",
+  "kind": "GDSII",
+  "sha256": "25e996a6cf3423d1f40c57dc9b5011938a4429ccd68c4cc6e99726c8c60e57d4",
+  "defSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768",
+  "cells": 237,
+  "layers": 37,
+  "dbuUm": 0.0009999999999999998,
+  "top": "physical_core",
+  "bboxUm": [
+    0.0,
+    0.0,
+    850.5099999999999,
+    850.5099999999999
+  ],
+  "mergeErrors": 0,
+  "manufacturingSignoff": false
+}

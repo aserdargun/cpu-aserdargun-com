@@ -1,0 +1,2310 @@
+{
+  "schemaVersion": 1,
+  "status": "functional-verified-physical-issues",
+  "completedAt": "2026-10-11T12:38:25.662897+00:00",
+  "tests": {
+    "passed": 85,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 9,
+    "failed": 0
+  },
+  "defParser": {
+    "passed": 3,
+    "failed": 0
+  },
+  "performance": {
+    "environment": "Chromium on development host; tablet viewport emulation, not physical tablet",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
+    "pauseWorkerLatencyMs": 0.1,
+    "measurements": [
+      {
+        "viewport": {
+          "width": 1600,
+          "height": 1000
+        },
+        "scene": "system",
+        "frames": 121,
+        "fps": 60,
+        "p95Ms": 17.2,
+        "drawCalls": 32,
+        "triangles": 666
+      },
+      {
+        "viewport": {
+          "width": 820,
+          "height": 1180
+        },
+        "scene": "system",
+        "frames": 121,
+        "fps": 60.1,
+        "p95Ms": 17.2,
+        "drawCalls": 32,
+        "triangles": 666
+      }
+    ],
+    "physicalMeasurements": [
+      {
+        "viewport": {
+          "width": 1600,
+          "height": 1000
+        },
+        "scene": "rv32im detailed physical routing",
+        "frames": 121,
+        "fps": 60,
+        "p95Ms": 16.8,
+        "drawCalls": 5,
+        "triangles": 432184
+      },
+      {
+        "viewport": {
+          "width": 820,
+          "height": 1180
+        },
+        "scene": "rv32im detailed physical routing",
+        "frames": 121,
+        "fps": 60,
+        "p95Ms": 16.9,
+        "drawCalls": 5,
+        "triangles": 432184
+      }
+    ],
+    "physicalDefSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768"
+  },
+  "checks": [
+    {
+      "check": "Functional tests completed without failures",
+      "passed": true
+    },
+    {
+      "check": "Browser workflows completed without skips or failures",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/full_adder.sv",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/cache.sv",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/lab_soc.sv",
+      "passed": true
+    },
+    {
+      "check": "RTL source rtl/physical_core.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i WASM model",
+      "passed": true
+    },
+    {
+      "check": "rv32i ISA BMC results",
+      "passed": true
+    },
+    {
+      "check": "rv32i formal source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i formal source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i formal source formal/rvfi_wrapper.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i gate js",
+      "passed": true
+    },
+    {
+      "check": "rv32i gate wasm",
+      "passed": true
+    },
+    {
+      "check": "rv32i gate bridge",
+      "passed": true
+    },
+    {
+      "check": "rv32i mapped netlist",
+      "passed": true
+    },
+    {
+      "check": "rv32i detailed routing",
+      "passed": true
+    },
+    {
+      "check": "rv32i physical/gate correspondence",
+      "passed": true
+    },
+    {
+      "check": "rv32i physical source",
+      "passed": true
+    },
+    {
+      "check": "rv32i physical source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i physical source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i physical source rtl/physical_core.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32i DEF",
+      "passed": true
+    },
+    {
+      "check": "rv32i GDS read-back",
+      "passed": true
+    },
+    {
+      "check": "rv32i post-route RC/STA",
+      "passed": true
+    },
+    {
+      "check": "rv32i extracted SPEF",
+      "passed": true
+    },
+    {
+      "check": "rv32i timing result recorded",
+      "passed": true
+    },
+    {
+      "check": "rv32i router DRC report recorded",
+      "passed": true
+    },
+    {
+      "check": "rv32im WASM model",
+      "passed": true
+    },
+    {
+      "check": "rv32im ISA BMC results",
+      "passed": true
+    },
+    {
+      "check": "rv32im formal source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im formal source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im formal source formal/rvfi_wrapper.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im gate js",
+      "passed": true
+    },
+    {
+      "check": "rv32im gate wasm",
+      "passed": true
+    },
+    {
+      "check": "rv32im gate bridge",
+      "passed": true
+    },
+    {
+      "check": "rv32im mapped netlist",
+      "passed": true
+    },
+    {
+      "check": "rv32im detailed routing",
+      "passed": true
+    },
+    {
+      "check": "rv32im physical/gate correspondence",
+      "passed": true
+    },
+    {
+      "check": "rv32im physical source",
+      "passed": true
+    },
+    {
+      "check": "rv32im physical source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im physical source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im physical source rtl/physical_core.sv",
+      "passed": true
+    },
+    {
+      "check": "rv32im DEF",
+      "passed": true
+    },
+    {
+      "check": "rv32im GDS read-back",
+      "passed": true
+    },
+    {
+      "check": "rv32im post-route RC/STA",
+      "passed": true
+    },
+    {
+      "check": "rv32im extracted SPEF",
+      "passed": true
+    },
+    {
+      "check": "rv32im timing result recorded",
+      "passed": true
+    },
+    {
+      "check": "rv32im router DRC report recorded",
+      "passed": true
+    },
+    {
+      "check": "Core properties BMC",
+      "passed": true
+    },
+    {
+      "check": "Core properties source rtl/cpu.sv",
+      "passed": true
+    },
+    {
+      "check": "Core properties source rtl/execute.sv",
+      "passed": true
+    },
+    {
+      "check": "Core properties source formal/properties.sv",
+      "passed": true
+    },
+    {
+      "check": "Core properties source formal/core.sby",
+      "passed": true
+    },
+    {
+      "check": "Spike adapter",
+      "passed": true
+    },
+    {
+      "check": "C sample ELF",
+      "passed": true
+    },
+    {
+      "check": "inverter ngspice truth checks",
+      "passed": true
+    },
+    {
+      "check": "nand ngspice truth checks",
+      "passed": true
+    },
+    {
+      "check": "chain ngspice truth checks",
+      "passed": true
+    },
+    {
+      "check": "Complete GDS master library",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdlclkp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkbufkapwr_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdlclkp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkbufkapwr_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkbufkapwr_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlymetal6s2s_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkbufkapwr_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfxtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfxtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfxtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__decap_3",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__decap_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__bufinv_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__decap_6",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ai_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__edfxtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__decap_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sedfxtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sedfxtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxbn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sedfxtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxbn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a211o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a32o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlygate4sd3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4bb_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4bb_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4bb_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux4_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux4_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux4_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ha_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ha_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ha_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2i_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkbufkapwr_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__tapvgnd2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2i_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_inputiso1p_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2i_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkinvkapwr_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrtn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__probec_p_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfsbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_6",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfsbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrc_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrc_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfbbn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111oi_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfbbn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrc_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__diode_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a222oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrc_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrbn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrbn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinv_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinv_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinv_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinv_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxtn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxtn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxtn_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinv_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2111o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvp_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ba_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ba_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_inputiso0p_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlymetal6s6s_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21ba_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor2_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a2bb2oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfxbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfxbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a31oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__maj3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__maj3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__probe_p_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__maj3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_12",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fah_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xnor3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlygate4sd1_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_decapkapwr_12",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a22o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o221a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s50_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s50_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fa_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fa_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__bufbuf_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and2b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fa_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfstp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfstp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkbuf_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s25_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfstp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s25_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2111a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4bb_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4bb_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o2bb2a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand4bb_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21bai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21bai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_decapkapwr_3",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fill_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrtn_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_decapkapwr_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fill_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfbbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o21bai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_decapkapwr_6",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fill_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__mux2_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_decapkapwr_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_inputiso1n_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fill_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfrtn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfsbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__bufinv_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfsbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinvlp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21bo_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21bo_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkinvlp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21bo_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s18_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s18_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_12",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfxtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfxtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__buf_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfxtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlymetal6s4s_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311ai_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s15_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkdlybuf4s15_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__decap_12",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvn_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o41a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o22ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o311ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvn_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__tapvgnd_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrckapwr_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__einvn_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o31ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a221o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_inputisolatch_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__tapvpwrvgnd_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_inputiso0n_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfxbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211ai_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfxbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211ai_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or3_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkinvkapwr_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211ai_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkinvkapwr_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkinvkapwr_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__tap_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__tap_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_clkinvkapwr_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkbuf_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlygate4sd2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkbuf_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__edfxbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_6",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkbuf_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4bb_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sedfxbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__inv_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4bb_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sedfxbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21boi_0",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21boi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4bb_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__clkbuf_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21boi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand2b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__bufbuf_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4bb_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a21boi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4bb_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or4bb_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__macro_sparecell",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__conb_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o211a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__or2b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fahcin_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfstp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfstp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfstp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41o_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41o_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a41o_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_isobufsrc_16",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrtp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32a_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4b_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfrtp_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32a_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4b_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dfbbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__o32a_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nor4b_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ebufn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ebufn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__and4_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ebufn_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrbp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlrbp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__lpflow_bleeder_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311oi_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfbbn_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__fahcon_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311oi_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__ebufn_8",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdfbbn_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__a311oi_4",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlclkp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor2_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlclkp_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__xor2_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlxtp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__sdlclkp_1",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__nand3_2",
+      "passed": true
+    },
+    {
+      "check": "GDS master sky130_fd_sc_hd__dlclkp_4",
+      "passed": true
+    },
+    {
+      "check": "DEF route parser regression tests",
+      "passed": true
+    },
+    {
+      "check": "Measured worker pause under 100 ms",
+      "passed": true
+    },
+    {
+      "check": "Runtime dependency audit",
+      "passed": true
+    },
+    {
+      "check": "Desktop/tablet viewport rendering targets",
+      "passed": true
+    },
+    {
+      "check": "Measured physical scene corresponds to final DEF",
+      "passed": true
+    },
+    {
+      "check": "Full routed RV32IM scene rendering targets",
+      "passed": true
+    }
+  ],
+  "sourceHashes": {
+    "rtl/full_adder.sv": "3caa9e6c3104d14a287e03ba0d1f231f8922e3df511a91eb9f7998e812a74707",
+    "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+    "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+    "rtl/cache.sv": "d03e2cd5bf5d759ca75fe871fe4dc53af102ab64654fc05a5e3b5d5cbed214b6",
+    "rtl/lab_soc.sv": "3e3a1e63207e519cff7772040828b1b4ea6ccb90413f59c6c2e2af22a28d5084",
+    "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d",
+    "src/App.tsx": "557aeb32d8cff6ce2d5e686279d61eca2c067679dc858c016ec06682c828a4b5",
+    "src/main.tsx": "eafdcc8e531e6124d0a4500ec1febfd960edd34e03b28150ff6ac301060fa83f",
+    "src/styles.css": "127bf6258eeaf304f7d06da226233af4f57d541df8e4055eab1ecd8acd1386f6",
+    "src/content/components.ts": "73f809576e4fec5c3f2153da153cc12e350a704194c562b1514edecaee572f25",
+    "src/content/programs.ts": "9471fed8199c62b5f98bf38a9cd7beff046d9a53bc0ec6e96ef4fbcc34732c5c",
+    "src/content/lessons.ts": "3afbbd2bfcf3395452f1ce4093240a637cd494b114ee499d1968707f4119add9",
+    "src/components/CpuScene.tsx": "6c6b55db685125b90413cd18aa394cd00cf83e57066de55dafd97820dc556dbe",
+    "src/components/SceneMeasure.tsx": "1edf6aaf280eb435930c69962ff7c05aad971f5215527ff6594bb0c9d23889b5",
+    "src/components/GateExplorer.tsx": "bb182ed914e521db6b649e4e26cefdf0b56022f572275be398024daf4d7c86b3",
+    "src/components/Panels.tsx": "6992b9725652d619d005b6e540fb1887906fb510b561e24df5d1d7a66a77d245",
+    "src/components/PhysicalScene.tsx": "6d49c4a4ca391f97f5bbfc06f5ad64f41283ef4f9f2f2dc7b5f308959fced9c2",
+    "src/components/CellGeometry.tsx": "a1bef7e15f431147025b7e79e8aec4b9f73ca07c9990d038f9e3ed2ad75818d3",
+    "src/components/Evidence.tsx": "427cb56cf92874510c032bf77b507dde1ac8fb8d2a6b962e114afd1aaceb044c",
+    "src/sim/useSimulation.ts": "af0aeef484b516d95c16793778169f5670db5a5f983dc11af14368e349594e8a",
+    "src/sim/gateWorker.ts": "0d6dd2363b2fb7be3e88ace6459f30ff705abbd07513bd9951e3144773da4aa5",
+    "src/sim/assembler.ts": "d4389f07a519db3412dc501785a0db04e84bda4b8c79bf1b2c8548f85ff4917b",
+    "src/sim/types.ts": "b1413fb428bc96d733177a460ab6b335d7580a67442d2869d2b497a05c55ff03",
+    "src/sim/useGates.ts": "747d6c99865350969c7c9050a5185e7a88d2941797c09710b89ad19697ac9706",
+    "src/sim/worker.ts": "8c6a879edd525e870752858726ae8eeec41ade52b3540538e5a71abf61058eef",
+    "sim/gate_bridge.cpp": "f99a347853eb9baa00e3138631ffe0bba85989253fbc30bea0ea5256354b382d",
+    "sim/spike_reference.cpp": "4fe4dc4e7f6de309506002f0a7d0c71339524b0969e6890d69a7c2777ca3268f",
+    "sim/bridge.cpp": "348b978ccb22159d008b97867613e9bd61899cbd55a127325078fc399db3e274",
+    "scripts/verify_release.py": "16f761cffc0fb8d4f24d39e75ae289637a50d83d772912432d0943c0cdb042cc",
+    "scripts/setup_tools.py": "99bd2850e39b495fe5a4ebc9e1b8b416bf863d1f19ffb771755163529665c7b0",
+    "scripts/openroad_runner.py": "4189126e537e1a581cee848872852393c3c48e04e6495fdfb4624166b0746320",
+    "scripts/def_routes.py": "25c8395b65af976d9e2860f0aab6cac6c6b769df46b9b81ef0b740727ca615d8",
+    "scripts/designmap.py": "67a284210680f3a3fd14cb7fabb1d67b8849bf57838f8a27d2824c95fbb4bf44",
+    "scripts/post_route.py": "34de846f76e09e6b00352bee65f3bafbbc7d0ce352d965467017a74f218fc92f",
+    "scripts/spice.py": "bbadab6fac9ce759d80d93505b3e614b5b89c36077ae4a21d2b87b5e29fa5c2c",
+    "scripts/route.tcl": "c54d787f9c33c1c0101bf2ea3ca6d7486c35d3a9de149b25e25fcf0d1196198b",
+    "scripts/build_gates.py": "530a26098547deaa384fab6679170f5fc109ff7aacc36ed163ae18c3c2068783",
+    "scripts/export_cells.py": "2c2b0337aca2a4062d2af894a05be690f8c63706336874a12fe77ea364d66997",
+    "scripts/formal.py": "1721461eb57241f6a96486a5280283693534d2c79351d3693b0a6262f9018b06",
+    "scripts/post_route.tcl": "f26e48fac10721fb6387fb29d85969ef8e2e664c459a5e5fc30e863c14580eda",
+    "scripts/export_physical.py": "4534955101c2d7a378054fea9346bdd0c59a02c26083d3bc05538e0d9642ab37",
+    "scripts/synthesize.py": "24532311021b424dfac9753f98b4e540a30911c46a1cefa40f13c04af984ef52",
+    "scripts/prepare_fast_runtime.py": "55883cdf02f4648c95a0e0fc8a253d6f1710134b4297bb312f6f6d49c86b1165",
+    "scripts/compile_c.py": "28f7a36dc910735507b959937216e39c93a4cea43d48cbdee0b9c5e79031b6e0",
+    "scripts/verify_artifacts.py": "d430010f3cff5963abd504e3b713c2fc0c685b181cf0f6cf48fb76fb67066f80",
+    "scripts/build_spike.py": "f97437894d43ed8926659b29babc69491b059119c7f3100efe89549bbd820f50",
+    "scripts/build_sim.py": "fd37a2e09534d4c01b3190bfa1d64ce7cd00a72aaee68ab89f40132fa1e7834d",
+    "scripts/write_release.py": "6aa66a9834ab21d0b822e25406128571ba3159c6e58d215f57b48bc9c93133a1",
+    "scripts/physical.py": "1e797786ee1f8d0544da7c2c28eb22c3bbc195cecacc82c429fa213b28770d47",
+    "scripts/physical.tcl": "af144f4e6f7d644384c8408ffa6131eec49d75ef72721d9b07f8390912601f20",
+    "scripts/make_gds.py": "c571c9d0ecccb90e20c77057560a388546b728b1dcad0ff08f4c57b0a3c3c835",
+    "formal/rvfi_wrapper.sv": "bbfb8e159b5caa9eaa278e868a30113af768f1439bd8b673f2a3e6986d50bf3d",
+    "formal/properties.sv": "8a3b6837d5baeca4c55899d3bd2ea788135d359f89f11ac028ee9185e9fed5ce",
+    "formal/core.sby": "f67c62142d58c40af28766cf2b41cf6092ad4cbf3474b7e4d94c85517a7d53e0",
+    "tests/gates.test.ts": "448709c2ab63d9265d54b092a01d9802f9d57a42275ccc1e079bb1285d76f2c7",
+    "tests/assembler.test.ts": "74a489d9a3fdfd209d4722d9484639a4d4b1c8aa6928bb57802e3bb71b2a60a7",
+    "tests/def_routes_test.py": "bdcf2fd5ee6a3e555b309fda036389476fe51110148033cc5ada0855e7f3f2fc",
+    "tests/rtl.test.ts": "0f575a52728593c5ef7895c61294cfb095ecb6f2dc31ab919272ca84137fc085",
+    "tests/spike.test.ts": "6c451ffd5cc720a4a02bf6108ea399c21a84449f870c8c83fa88f4b24894dd4f",
+    "tests/browser/workbench.spec.ts": "29f24e9962e50b8ce6f6e0e6a4b1130e14712a5437b911b552fa2a29ba99fc92"
+  },
+  "boundaries": [
+    "BMC cycle 18, RV32I instruction checks; M arithmetic tested with Spike",
+    "Mapped functional gate simulation is zero-delay and cacheless",
+    "Geometry vertical spacing illustrative; no manufacturing/physical-device acceptance"
+  ],
+  "physical": {
+    "rv32i": {
+      "schemaVersion": 1,
+      "core": "rv32i",
+      "kind": "physical-layout",
+      "physical": true,
+      "status": "detailed-routed",
+      "units": "um",
+      "platform": "SKY130 HD TT 25C 1.8V",
+      "die": [
+        0.0,
+        0.0,
+        544.3,
+        544.3
+      ],
+      "cellCount": 11589,
+      "netCount": 8124,
+      "routeSegmentCount": 89950,
+      "cellFormat": [
+        "instance",
+        "master",
+        "x",
+        "y",
+        "width",
+        "height",
+        "orientation"
+      ],
+      "routeFormat": [
+        "net",
+        "layer",
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "routeGeometry": "DEF centerlines; full width, cut and via geometry is in the native GDS",
+      "metalHeights": "illustrative exploded layer spacing; XY is exact DEF geometry",
+      "sourceHash": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+      "defSha256": "4f68ac1ef0fc82b13a78f064b5078c74b116ed97e22a8f8442d282b916fc3414",
+      "platformCommit": "3451ca1f56902a49baf50bb8eba345eb709cf9c8",
+      "timing": {
+        "clockTargetNs": 100,
+        "worstSlackNs": 88.01,
+        "cellAreaUm2": 97731.0
+      },
+      "manufacturingSignoff": false,
+      "routerDrcViolations": 0,
+      "drcScope": "OpenROAD detailed-router DRC, not full foundry DRC/LVS signoff",
+      "postRouteTiming": {
+        "core": "rv32i",
+        "defSha256": "4f68ac1ef0fc82b13a78f064b5078c74b116ed97e22a8f8442d282b916fc3414",
+        "clockTargetNs": 100,
+        "parasitics": "OpenRCX extracted routed RC, SKY130 platform rcx_patterns.rules",
+        "worstSlackNs": 89.06,
+        "tnsNs": 0.0,
+        "timingTargetMet": true,
+        "spefSha256": "45357b4c4c85d02fd9bf9d337cab7ae1bce2a61bbccd230a02c945c40c4d9425",
+        "antennaNetViolations": 14,
+        "antennaPinViolations": 18,
+        "antennaReport": "/physical/rv32i-antenna.rpt",
+        "manufacturingSignoff": false
+      },
+      "runtime": "OpenROAD 2.0-17598-ga008522d8",
+      "rtlManifest": {
+        "rtl": {
+          "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+          "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+          "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d"
+        },
+        "core": "rv32i",
+        "pipeline": 0,
+        "mExtension": 0
+      },
+      "mappedSha256": "0c0da1cf3723d3c3b69cb7deb2671e57480e5faef649515297c2ca00399bd34c"
+    },
+    "rv32im": {
+      "schemaVersion": 1,
+      "core": "rv32im",
+      "kind": "physical-layout",
+      "physical": true,
+      "status": "detailed-routed",
+      "units": "um",
+      "platform": "SKY130 HD TT 25C 1.8V",
+      "die": [
+        0.0,
+        0.0,
+        850.51,
+        850.51
+      ],
+      "cellCount": 36009,
+      "netCount": 27232,
+      "routeSegmentCount": 241542,
+      "cellFormat": [
+        "instance",
+        "master",
+        "x",
+        "y",
+        "width",
+        "height",
+        "orientation"
+      ],
+      "routeFormat": [
+        "net",
+        "layer",
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "routeGeometry": "DEF centerlines; full width, cut and via geometry is in the native GDS",
+      "metalHeights": "illustrative exploded layer spacing; XY is exact DEF geometry",
+      "sourceHash": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+      "defSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768",
+      "platformCommit": "3451ca1f56902a49baf50bb8eba345eb709cf9c8",
+      "timing": {
+        "clockTargetNs": 100,
+        "worstSlackNs": -34.56,
+        "cellAreaUm2": 264252.0
+      },
+      "manufacturingSignoff": false,
+      "routerDrcViolations": 0,
+      "drcScope": "OpenROAD detailed-router DRC, not full foundry DRC/LVS signoff",
+      "postRouteTiming": {
+        "core": "rv32im",
+        "defSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768",
+        "clockTargetNs": 100,
+        "parasitics": "OpenRCX extracted routed RC, SKY130 platform rcx_patterns.rules",
+        "worstSlackNs": -14.39,
+        "tnsNs": -383.17,
+        "timingTargetMet": false,
+        "spefSha256": "80624523871dc2f1f0fd421e460653ad082740efd377c553be1f929d80518bdb",
+        "antennaNetViolations": 42,
+        "antennaPinViolations": 52,
+        "antennaReport": "/physical/rv32im-antenna.rpt",
+        "manufacturingSignoff": false
+      },
+      "runtime": "OpenROAD 2.0-17598-ga008522d8",
+      "rtlManifest": {
+        "rtl": {
+          "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+          "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+          "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d"
+        },
+        "core": "rv32im",
+        "pipeline": 1,
+        "mExtension": 1
+      },
+      "mappedSha256": "b468307c8b8ce383aa88c589aa2a1cadf97eff430e435b0f8828641984627ff1"
+    }
+  }
+}

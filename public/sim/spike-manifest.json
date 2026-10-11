@@ -1,0 +1,6 @@
+{
+  "oracle": "upstream Spike processor_t",
+  "commit": "17e8a69fb75546dea445cfc0fb78769d2510f339",
+  "adapterSha256": "4fe4dc4e7f6de309506002f0a7d0c71339524b0969e6890d69a7c2777ca3268f",
+  "eei": "RV32 little endian; code 0/64KiB, data 0x10000000/64KiB, UART 0x20000000, GPIO 0x20000004; trap terminates execution"
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "core": "rv32im",
+  "kind": "physical-layout",
+  "physical": true,
+  "status": "detailed-routed",
+  "units": "um",
+  "platform": "SKY130 HD TT 25C 1.8V",
+  "die": [
+    0.0,
+    0.0,
+    850.51,
+    850.51
+  ],
+  "cellCount": 36009,
+  "netCount": 27232,
+  "routeSegmentCount": 241542,
+  "cellFormat": [
+    "instance",
+    "master",
+    "x",
+    "y",
+    "width",
+    "height",
+    "orientation"
+  ],
+  "routeFormat": [
+    "net",
+    "layer",
+    "x1",
+    "y1",
+    "x2",
+    "y2"
+  ],
+  "routeGeometry": "DEF centerlines; full width, cut and via geometry is in the native GDS",
+  "metalHeights": "illustrative exploded layer spacing; XY is exact DEF geometry",
+  "sourceHash": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+  "defSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768",
+  "platformCommit": "3451ca1f56902a49baf50bb8eba345eb709cf9c8",
+  "timing": {
+    "clockTargetNs": 100,
+    "worstSlackNs": -34.56,
+    "cellAreaUm2": 264252.0
+  },
+  "manufacturingSignoff": false,
+  "routerDrcViolations": 0,
+  "drcScope": "OpenROAD detailed-router DRC, not full foundry DRC/LVS signoff",
+  "postRouteTiming": {
+    "core": "rv32im",
+    "defSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768",
+    "clockTargetNs": 100,
+    "parasitics": "OpenRCX extracted routed RC, SKY130 platform rcx_patterns.rules",
+    "worstSlackNs": -14.39,
+    "tnsNs": -383.17,
+    "timingTargetMet": false,
+    "spefSha256": "80624523871dc2f1f0fd421e460653ad082740efd377c553be1f929d80518bdb",
+    "antennaNetViolations": 42,
+    "antennaPinViolations": 52,
+    "antennaReport": "/physical/rv32im-antenna.rpt",
+    "manufacturingSignoff": false
+  },
+  "runtime": "OpenROAD 2.0-17598-ga008522d8",
+  "rtlManifest": {
+    "rtl": {
+      "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+      "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+      "rtl/physical_core.sv": "d984eeb35fa5f1bfaa952756e430cd2574b5ef6c47a76eeca8e9ea79e33c6e5d"
+    },
+    "core": "rv32im",
+    "pipeline": 1,
+    "mExtension": 1
+  },
+  "mappedSha256": "b468307c8b8ce383aa88c589aa2a1cadf97eff430e435b0f8828641984627ff1"
+}

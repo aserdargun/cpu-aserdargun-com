@@ -1,0 +1,4812 @@
+{
+  "sourceSha256": "15240e34c50e42419336c0f3f498aaeac1e1e403c62134c0eee088225b69dc13",
+  "cells": [
+    {
+      "master": "sky130_fd_sc_hd__xor2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 176
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdlclkp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 135
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.77,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 229
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 116
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 135
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkbufkapwr_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 47
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 238
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdlclkp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 155
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkbufkapwr_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 178
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkbufkapwr_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 68
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlymetal6s2s_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 91
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 98
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 74
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 153
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkbufkapwr_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 106
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 106
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfxtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 144
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfxtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 149
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 128
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfxtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 168
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 130
+    },
+    {
+      "master": "sky130_fd_sc_hd__decap_3",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 33
+    },
+    {
+      "master": "sky130_fd_sc_hd__decap_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 35
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 190
+    },
+    {
+      "master": "sky130_fd_sc_hd__bufinv_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 127
+    },
+    {
+      "master": "sky130_fd_sc_hd__decap_6",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 41
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 51
+    },
+    {
+      "master": "sky130_fd_sc_hd__edfxtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 199
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 58
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 164
+    },
+    {
+      "master": "sky130_fd_sc_hd__decap_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 47
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 68
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 85
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 102
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 165
+    },
+    {
+      "master": "sky130_fd_sc_hd__sedfxtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.53,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 242
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 79
+    },
+    {
+      "master": "sky130_fd_sc_hd__sedfxtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.99,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 249
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 130
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 99
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 123
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.405,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 179
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 124
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 87
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxbn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 141
+    },
+    {
+      "master": "sky130_fd_sc_hd__sedfxtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.91,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 263
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 194
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxbn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 152
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 105
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 187
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 85
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 87
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 100
+    },
+    {
+      "master": "sky130_fd_sc_hd__a211o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 110
+    },
+    {
+      "master": "sky130_fd_sc_hd__a32o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 143
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlygate4sd3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 70
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4bb_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4bb_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 118
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 65
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 109
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4bb_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 169
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 177
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux4_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 188
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 125
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux4_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 161
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 128
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux4_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 176
+    },
+    {
+      "master": "sky130_fd_sc_hd__ha_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 104
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 147
+    },
+    {
+      "master": "sky130_fd_sc_hd__ha_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 112
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 93
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__ha_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 161
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2i_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 87
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkbufkapwr_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 173
+    },
+    {
+      "master": "sky130_fd_sc_hd__tapvgnd2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        0.65,
+        2.96
+      ],
+      "layers": 12,
+      "polygons": 25
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 108
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2i_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 96
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_inputiso1p_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2i_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 144
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 190
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 203
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.77,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 231
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkinvkapwr_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 195
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 45
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 116
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrtn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.69,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 203
+    },
+    {
+      "master": "sky130_fd_sc_hd__probec_p_8",
+      "bounds": [
+        -1.26,
+        -1.17,
+        6.675,
+        3.89
+      ],
+      "layers": 26,
+      "polygons": 165
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfsbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.53,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 248
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_6",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 82
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfsbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.45,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 260
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrc_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__xor3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 142
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 76
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrc_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 54
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 104
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfbbn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 237
+    },
+    {
+      "master": "sky130_fd_sc_hd__xor3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 146
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 65
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111oi_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfbbn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.07,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 236
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 109
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrc_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 108
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 88
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__diode_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.11,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 37
+    },
+    {
+      "master": "sky130_fd_sc_hd__xor3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 156
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 119
+    },
+    {
+      "master": "sky130_fd_sc_hd__a222oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 101
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 164
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 70
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 174
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrc_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 165
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrbn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 161
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrbn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 158
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinv_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 155
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinv_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 43
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinv_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 50
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinv_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxtn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 116
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 54
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxtn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 120
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 73
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 100
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxtn_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 136
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 94
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 80
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 105
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinv_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 106
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 123
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 81
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2111o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 149
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 194
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 45
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvp_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 146
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 120
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 140
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 80
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 88
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ba_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 85
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ba_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_inputiso0p_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 102
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlymetal6s6s_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 137
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ba_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 111
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor2_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 140
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 152
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 215
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 81
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 111
+    },
+    {
+      "master": "sky130_fd_sc_hd__a2bb2oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 177
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 81
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 106
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfxbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 199
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 108
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfxbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 213
+    },
+    {
+      "master": "sky130_fd_sc_hd__a31oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 150
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 165
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 48
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 69
+    },
+    {
+      "master": "sky130_fd_sc_hd__maj3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 73
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 53
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 69
+    },
+    {
+      "master": "sky130_fd_sc_hd__maj3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__probe_p_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 27,
+      "polygons": 125
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 70
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 98
+    },
+    {
+      "master": "sky130_fd_sc_hd__maj3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 95
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_12",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 120
+    },
+    {
+      "master": "sky130_fd_sc_hd__fah_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.61,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 246
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 139
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 145
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 137
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 76
+    },
+    {
+      "master": "sky130_fd_sc_hd__xnor3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 157
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 90
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlygate4sd1_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 64
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_decapkapwr_12",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__a22o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 119
+    },
+    {
+      "master": "sky130_fd_sc_hd__o221a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 133
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.405,
+        5.68
+      ],
+      "layers": 18,
+      "polygons": 158
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s50_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 91
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s50_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 79
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 99
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__fa_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 148
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 147
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 123
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__fa_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 158
+    },
+    {
+      "master": "sky130_fd_sc_hd__bufbuf_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 129
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 184
+    },
+    {
+      "master": "sky130_fd_sc_hd__and2b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__fa_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 183
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfstp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.61,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 223
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfstp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.07,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 236
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 103
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 144
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 103
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s25_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 74
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfstp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.99,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 246
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s25_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2111a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 133
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 84
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4bb_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 88
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 103
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4bb_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 129
+    },
+    {
+      "master": "sky130_fd_sc_hd__o2bb2a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 137
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand4bb_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 188
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 79
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 135
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 82
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 130
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21bai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 70
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21bai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 101
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_decapkapwr_3",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 39
+    },
+    {
+      "master": "sky130_fd_sc_hd__fill_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        0.65,
+        2.96
+      ],
+      "layers": 11,
+      "polygons": 15
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrtn_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 147
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_decapkapwr_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 42
+    },
+    {
+      "master": "sky130_fd_sc_hd__fill_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.11,
+        2.96
+      ],
+      "layers": 11,
+      "polygons": 17
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfbbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.45,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 261
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21bai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 137
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_decapkapwr_6",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 50
+    },
+    {
+      "master": "sky130_fd_sc_hd__fill_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 11,
+      "polygons": 21
+    },
+    {
+      "master": "sky130_fd_sc_hd__mux2_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 156
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_decapkapwr_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 58
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_inputiso1n_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 60
+    },
+    {
+      "master": "sky130_fd_sc_hd__fill_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 11,
+      "polygons": 29
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 91
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfrtn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.39,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 189
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 65
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfsbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.77,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 206
+    },
+    {
+      "master": "sky130_fd_sc_hd__bufinv_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 205
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfsbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 218
+    },
+    {
+      "master": "sky130_fd_sc_hd__and3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 85
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 68
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinvlp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 43
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21bo_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 90
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 101
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21bo_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkinvlp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 59
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 164
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 165
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21bo_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 100
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s18_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.07,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 226
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s18_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 74
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.53,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 225
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.405,
+        5.68
+      ],
+      "layers": 16,
+      "polygons": 179
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 48
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 124
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 66
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 79
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 113
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_12",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 129
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfxtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 178
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 147
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 164
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfxtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 187
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 51
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 147
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 84
+    },
+    {
+      "master": "sky130_fd_sc_hd__buf_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        10.31,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 188
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfxtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 196
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlymetal6s4s_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 91
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 97
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311ai_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 59
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 114
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s15_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 75
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 109
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 81
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 100
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkdlybuf4s15_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 124
+    },
+    {
+      "master": "sky130_fd_sc_hd__decap_12",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 16,
+      "polygons": 57
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvn_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 49
+    },
+    {
+      "master": "sky130_fd_sc_hd__o41a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 162
+    },
+    {
+      "master": "sky130_fd_sc_hd__o22ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 128
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 57
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 76
+    },
+    {
+      "master": "sky130_fd_sc_hd__o311ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 185
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 73
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 139
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvn_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 93
+    },
+    {
+      "master": "sky130_fd_sc_hd__tapvgnd_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        0.65,
+        2.96
+      ],
+      "layers": 12,
+      "polygons": 25
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 74
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 107
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrckapwr_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.45,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 267
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 93
+    },
+    {
+      "master": "sky130_fd_sc_hd__einvn_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 144
+    },
+    {
+      "master": "sky130_fd_sc_hd__o31ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 167
+    },
+    {
+      "master": "sky130_fd_sc_hd__a221o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 150
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_inputisolatch_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 111
+    },
+    {
+      "master": "sky130_fd_sc_hd__tapvpwrvgnd_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        0.65,
+        2.96
+      ],
+      "layers": 11,
+      "polygons": 22
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 58
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_inputiso0n_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 55
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfxbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 168
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 65
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211ai_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 69
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfxbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 181
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211ai_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__or3_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 87
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkinvkapwr_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 48
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 104
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211ai_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 122
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkinvkapwr_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 56
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.55,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 139
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkinvkapwr_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 80
+    },
+    {
+      "master": "sky130_fd_sc_hd__tap_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        0.65,
+        2.96
+      ],
+      "layers": 12,
+      "polygons": 24
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 46
+    },
+    {
+      "master": "sky130_fd_sc_hd__tap_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.11,
+        2.96
+      ],
+      "layers": 12,
+      "polygons": 30
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_clkinvkapwr_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 128
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkbuf_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 43
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlygate4sd2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 69
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 58
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkbuf_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 52
+    },
+    {
+      "master": "sky130_fd_sc_hd__edfxbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 217
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_6",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 69
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkbuf_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 60
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4bb_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__sedfxbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.45,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 260
+    },
+    {
+      "master": "sky130_fd_sc_hd__inv_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 88
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4bb_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 90
+    },
+    {
+      "master": "sky130_fd_sc_hd__sedfxbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        15.37,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 274
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.49,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 53
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21boi_0",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 64
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 81
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21boi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 73
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4bb_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 102
+    },
+    {
+      "master": "sky130_fd_sc_hd__clkbuf_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 90
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21boi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 82
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand2b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.25,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 112
+    },
+    {
+      "master": "sky130_fd_sc_hd__bufbuf_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 224
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4bb_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 83
+    },
+    {
+      "master": "sky130_fd_sc_hd__a21boi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 116
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4bb_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.79,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 90
+    },
+    {
+      "master": "sky130_fd_sc_hd__or4bb_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 106
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__macro_sparecell",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.53,
+        2.96
+      ],
+      "layers": 18,
+      "polygons": 781
+    },
+    {
+      "master": "sky130_fd_sc_hd__conb_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        1.57,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 76
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 60
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 78
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__o211a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 110
+    },
+    {
+      "master": "sky130_fd_sc_hd__or2b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 84
+    },
+    {
+      "master": "sky130_fd_sc_hd__fahcin_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.61,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 238
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfstp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 189
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfstp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 186
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfstp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.23,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 203
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41o_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 92
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41o_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 98
+    },
+    {
+      "master": "sky130_fd_sc_hd__a41o_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 152
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_isobufsrc_16",
+      "bounds": [
+        -0.19,
+        -0.24,
+        16.75,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 290
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        11.69,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 203
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrtp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 209
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32a_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 84
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4b_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 63
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfrtp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        13.07,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 222
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32a_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 95
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4b_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 120
+    },
+    {
+      "master": "sky130_fd_sc_hd__dfbbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.15,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 226
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 74
+    },
+    {
+      "master": "sky130_fd_sc_hd__o32a_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 154
+    },
+    {
+      "master": "sky130_fd_sc_hd__nor4b_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.93,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 170
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 85
+    },
+    {
+      "master": "sky130_fd_sc_hd__ebufn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 77
+    },
+    {
+      "master": "sky130_fd_sc_hd__ebufn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 86
+    },
+    {
+      "master": "sky130_fd_sc_hd__and4_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        4.33,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__ebufn_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 112
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrbp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 156
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlrbp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.47,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 178
+    },
+    {
+      "master": "sky130_fd_sc_hd__lpflow_bleeder_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.95,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 37
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311oi_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 72
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfbbn_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        14.45,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 262
+    },
+    {
+      "master": "sky130_fd_sc_hd__fahcon_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        12.61,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 236
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311oi_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 123
+    },
+    {
+      "master": "sky130_fd_sc_hd__ebufn_8",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 160
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdfbbn_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        15.37,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 275
+    },
+    {
+      "master": "sky130_fd_sc_hd__a311oi_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        9.85,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 181
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlclkp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.63,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 118
+    },
+    {
+      "master": "sky130_fd_sc_hd__xor2_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.41,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 67
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlclkp_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 121
+    },
+    {
+      "master": "sky130_fd_sc_hd__xor2_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        6.17,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 112
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        2.03,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 55
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlxtp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        5.71,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 129
+    },
+    {
+      "master": "sky130_fd_sc_hd__sdlclkp_1",
+      "bounds": [
+        -0.19,
+        -0.24,
+        7.09,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 127
+    },
+    {
+      "master": "sky130_fd_sc_hd__nand3_2",
+      "bounds": [
+        -0.19,
+        -0.24,
+        3.87,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 89
+    },
+    {
+      "master": "sky130_fd_sc_hd__dlclkp_4",
+      "bounds": [
+        -0.19,
+        -0.24,
+        8.01,
+        2.96
+      ],
+      "layers": 17,
+      "polygons": 148
+    }
+  ]
+}

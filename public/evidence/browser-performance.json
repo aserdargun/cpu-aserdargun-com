@@ -1,0 +1,58 @@
+{
+  "environment": "Chromium on development host; tablet viewport emulation, not physical tablet",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
+  "pauseWorkerLatencyMs": 0.1,
+  "measurements": [
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scene": "system",
+      "frames": 121,
+      "fps": 60,
+      "p95Ms": 17.2,
+      "drawCalls": 32,
+      "triangles": 666
+    },
+    {
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "scene": "system",
+      "frames": 121,
+      "fps": 60.1,
+      "p95Ms": 17.2,
+      "drawCalls": 32,
+      "triangles": 666
+    }
+  ],
+  "physicalMeasurements": [
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scene": "rv32im detailed physical routing",
+      "frames": 121,
+      "fps": 60,
+      "p95Ms": 16.8,
+      "drawCalls": 5,
+      "triangles": 432184
+    },
+    {
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "scene": "rv32im detailed physical routing",
+      "frames": 121,
+      "fps": 60,
+      "p95Ms": 16.9,
+      "drawCalls": 5,
+      "triangles": 432184
+    }
+  ],
+  "physicalDefSha256": "d66c0d7efadf4005b4da3256401ff42294030ce5b52ebfbdb7532d7ea3e41768"
+}

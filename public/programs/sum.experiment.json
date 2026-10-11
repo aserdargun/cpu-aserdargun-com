@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "image": {
+    "name": "sum.c",
+    "source": "/* Bare-metal RV32I. ELF loader initializes data and zeroes bss. */\nvolatile unsigned values[5] = {3,7,11,13,17};\nvolatile unsigned result;\nvoid main(void) {\n    unsigned total = 0;\n    for (unsigned i=0;i<5;i++) total += values[i];\n    result = total;\n    *(volatile unsigned*)0x20000004 = total & 255;\n    *(volatile unsigned char*)0x20000000 = 'O';\n    *(volatile unsigned char*)0x20000000 = 'K';\n}\n",
+    "language": "c",
+    "entry": 0,
+    "segments": [
+      {
+        "address": 0,
+        "bytes": [
+          55,
+          1,
+          1,
+          16,
+          19,
+          1,
+          1,
+          255,
+          239,
+          0,
+          192,
+          0,
+          115,
+          0,
+          16,
+          0,
+          111,
+          0,
+          0,
+          0,
+          147,
+          7,
+          0,
+          0,
+          147,
+          6,
+          0,
+          0,
+          55,
+          6,
+          0,
+          16,
+          19,
+          6,
+          6,
+          0,
+          147,
+          5,
+          80,
+          0,
+          19,
+          151,
+          39,
+          0,
+          51,
+          7,
+          230,
+          0,
+          3,
+          39,
+          7,
+          0,
+          179,
+          134,
+          230,
+          0,
+          147,
+          135,
+          23,
+          0,
+          227,
+          150,
+          183,
+          254,
+          183,
+          7,
+          0,
+          16,
+          35,
+          170,
+          215,
+          0,
+          147,
+          246,
+          246,
+          15,
+          183,
+          7,
+          0,
+          32,
+          35,
+          162,
+          215,
+          0,
+          19,
+          7,
+          240,
+          4,
+          35,
+          128,
+          231,
+          0,
+          19,
+          7,
+          176,
+          4,
+          35,
+          128,
+          231,
+          0,
+          103,
+          128,
+          0,
+          0
+        ]
+      },
+      {
+        "address": 268435456,
+        "bytes": [
+          3,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "symbols": {
+      "_start": 0,
+      "main": 20,
+      "values": 268435456,
+      "result": 268435476
+    },
+    "lines": {
+      "20": 6,
+      "24": 5,
+      "28": 6,
+      "32": 6,
+      "36": 6,
+      "40": 6,
+      "44": 6,
+      "48": 6,
+      "52": 6,
+      "56": 6,
+      "60": 6,
+      "64": 7,
+      "68": 7,
+      "72": 8,
+      "76": 8,
+      "80": 8,
+      "84": 9,
+      "88": 9,
+      "92": 10,
+      "96": 10,
+      "100": 11
+    },
+    "instructions": [
+      {
+        "pc": 0,
+        "word": 268501303,
+        "assembly": "lui\tsp,0x10010"
+      },
+      {
+        "pc": 4,
+        "word": 4278255891,
+        "assembly": "addi\tsp,sp,-16 # 1000fff0 <result+0xffdc>"
+      },
+      {
+        "pc": 8,
+        "word": 12583151,
+        "assembly": "jal\t14 <main>"
+      },
+      {
+        "pc": 12,
+        "word": 1048691,
+        "assembly": "ebreak"
+      },
+      {
+        "pc": 16,
+        "word": 111,
+        "assembly": "j\t10 <_start+0x10>"
+      },
+      {
+        "pc": 20,
+        "word": 1939,
+        "assembly": "li\ta5,0"
+      },
+      {
+        "pc": 24,
+        "word": 1683,
+        "assembly": "li\ta3,0"
+      },
+      {
+        "pc": 28,
+        "word": 268437047,
+        "assembly": "lui\ta2,0x10000"
+      },
+      {
+        "pc": 32,
+        "word": 394771,
+        "assembly": "mv\ta2,a2"
+      },
+      {
+        "pc": 36,
+        "word": 5244307,
+        "assembly": "li\ta1,5"
+      },
+      {
+        "pc": 40,
+        "word": 2594579,
+        "assembly": "slli\ta4,a5,0x2"
+      },
+      {
+        "pc": 44,
+        "word": 15075123,
+        "assembly": "add\ta4,a2,a4"
+      },
+      {
+        "pc": 48,
+        "word": 468739,
+        "assembly": "lw\ta4,0(a4)"
+      },
+      {
+        "pc": 52,
+        "word": 15107763,
+        "assembly": "add\ta3,a3,a4"
+      },
+      {
+        "pc": 56,
+        "word": 1542035,
+        "assembly": "addi\ta5,a5,1"
+      },
+      {
+        "pc": 60,
+        "word": 4273444579,
+        "assembly": "bne\ta5,a1,28 <main+0x14>"
+      },
+      {
+        "pc": 64,
+        "word": 268437431,
+        "assembly": "lui\ta5,0x10000"
+      },
+      {
+        "pc": 68,
+        "word": 14133795,
+        "assembly": "sw\ta3,20(a5) # 10000014 <result>"
+      },
+      {
+        "pc": 72,
+        "word": 267843219,
+        "assembly": "zext.b\ta3,a3"
+      },
+      {
+        "pc": 76,
+        "word": 536872887,
+        "assembly": "lui\ta5,0x20000"
+      },
+      {
+        "pc": 80,
+        "word": 14131747,
+        "assembly": "sw\ta3,4(a5) # 20000004 <result+0xffffff0>"
+      },
+      {
+        "pc": 84,
+        "word": 82839315,
+        "assembly": "li\ta4,79"
+      },
+      {
+        "pc": 88,
+        "word": 15171619,
+        "assembly": "sb\ta4,0(a5)"
+      },
+      {
+        "pc": 92,
+        "word": 78645011,
+        "assembly": "li\ta4,75"
+      },
+      {
+        "pc": 96,
+        "word": 15171619,
+        "assembly": "sb\ta4,0(a5)"
+      },
+      {
+        "pc": 100,
+        "word": 32871,
+        "assembly": "ret"
+      }
+    ]
+  },
+  "config": {
+    "core": "rv32i",
+    "latency": 1,
+    "cache": false
+  },
+  "cycle": 0,
+  "breakpoint": "",
+  "watchpoint": ""
+}

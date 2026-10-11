@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mode": "bounded model checking",
+  "depth": 18,
+  "engine": "SymbiYosys + yosys-smtbmc + z3",
+  "scope": "RV32I pipeline control (M disabled): x0, halted state, register hold and stalled memory request properties; arbitrary ready/fault/data",
+  "sourceHashes": {
+    "rtl/cpu.sv": "be5dd522bef209a4fa16febe83b8c9e1c49ba0eeafd8be72f1bca71696f67955",
+    "rtl/execute.sv": "ea32a475b653607e540f05016c80a1ab900f0f7cb1ae12336f90bb7d18f1b501",
+    "formal/properties.sv": "8a3b6837d5baeca4c55899d3bd2ea788135d359f89f11ac028ee9185e9fed5ce",
+    "formal/core.sby": "f67c62142d58c40af28766cf2b41cf6092ad4cbf3474b7e4d94c85517a7d53e0"
+  }
+}

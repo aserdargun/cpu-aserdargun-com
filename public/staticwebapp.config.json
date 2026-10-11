@@ -1,0 +1,18 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/sim/*", "/physical/*", "/programs/*", "/source/*", "/evidence/*", "/licenses/*", "/fonts/*", "/release.json"]
+  },
+  "routes": [
+    {"route": "/release.json", "headers": {"Cache-Control": "no-store"}},
+    {"route": "/assets/*", "headers": {"Cache-Control": "public, max-age=31536000, immutable"}},
+    {"route": "/sim/*", "headers": {"Cache-Control": "no-cache"}},
+    {"route": "/physical/*", "headers": {"Cache-Control": "no-cache"}},
+    {"route": "/evidence/*", "headers": {"Cache-Control": "no-cache"}}
+  ],
+  "mimeTypes": {
+    ".wasm": "application/wasm", ".gds": "application/octet-stream", ".elf": "application/octet-stream",
+    ".sv": "text/plain", ".cpp": "text/plain", ".sby": "text/plain", ".rpt": "text/plain", ".ttf": "font/ttf"
+  },
+  "globalHeaders": {"X-Content-Type-Options": "nosniff"}
+}

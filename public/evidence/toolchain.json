@@ -1,0 +1,218 @@
+{
+  "hostTools": {
+    "node": "v22.23.1",
+    "python3": "Python 3.14.8",
+    "verilator": "Verilator 5.052 2026-09-05 rev vUNKNOWN-built20260905",
+    "emcc": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.10-git",
+    "yosys": "Yosys 0.69+post (git sha1 143eb14f9cc55d6f8927e68523b0c9d2166ed02c, Release, AppleClang clang++ 21.0.0.21000334)",
+    "ngspice": "** ngspice-47 : Circuit level simulation program",
+    "riscv64-elf-gcc": "riscv64-elf-gcc (GCC) 16.2.0",
+    "limactl": "limactl version 2.2.1"
+  },
+  "upstream": {
+    "spike": {
+      "url": "https://github.com/riscv-software-src/riscv-isa-sim.git",
+      "commit": "17e8a69fb75546dea445cfc0fb78769d2510f339"
+    },
+    "riscv-formal": {
+      "url": "https://github.com/YosysHQ/riscv-formal.git",
+      "commit": "c992aa61fdfe0846c5ed90324c596202a1c69b76"
+    },
+    "sby": {
+      "url": "https://github.com/YosysHQ/sby.git",
+      "commit": "b1a1e98cba941ec8433f8dc27f416cd7bb7f14be"
+    },
+    "orfs": {
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git",
+      "commit": "3451ca1f56902a49baf50bb8eba345eb709cf9c8"
+    }
+  },
+  "physicalEngine": "2.0-17598-ga008522d8; dedicated x86_64 cpu-lab VM",
+  "physicalExecution": "same pinned x86_64 engine on cpu-lab-fast ARM/VZ/Rosetta; KLayout on cpu-lab",
+  "physicalRuntime": {
+    "openroad": {
+      "source": "/home/aserdargun.guest/cpu-lab-tools/openroad/usr/bin/openroad",
+      "sha256": "93fe61454a52b927602fd6c798c4402214c19e80e7d614636345f0f427ea2f46"
+    },
+    "libtcl8.6.so": {
+      "source": "/lib/x86_64-linux-gnu/libtcl8.6.so",
+      "sha256": "2d072235d4a518cb02fd8c6a2dd052119545a9a4406cb69e8cdeef156571dec2"
+    },
+    "libtclreadline-2.3.8.so": {
+      "source": "/lib/x86_64-linux-gnu/libtclreadline-2.3.8.so",
+      "sha256": "b1ed1fa34b7712e5c14666f75c667984905ab08f15ef30220171690a719bc2b5"
+    },
+    "libz.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libz.so.1",
+      "sha256": "86200da370f20476a2507e9097a789b5ef97269b4ca8d5e164ad82dab9d99892"
+    },
+    "libortools.so.9": {
+      "source": "/home/aserdargun.guest/cpu-lab-tools/openroad/opt/or-tools/lib/libortools.so.9",
+      "sha256": "e362f5d8acebd1bc3485d270e20a0801991f6ec4829245ecf1ff92ac4f0c059f"
+    },
+    "libgomp.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libgomp.so.1",
+      "sha256": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1"
+    },
+    "libQt5Charts.so.5": {
+      "source": "/lib/x86_64-linux-gnu/libQt5Charts.so.5",
+      "sha256": "8f30d41dfe0f7541409b5e7be761eed38d79b412b718765e23eebbe68d14166f"
+    },
+    "libQt5Widgets.so.5": {
+      "source": "/lib/x86_64-linux-gnu/libQt5Widgets.so.5",
+      "sha256": "8e03815f581781fc8b0ef931335493f8f2fcb48ee855f0be2258bbfbd06e62ee"
+    },
+    "libQt5Gui.so.5": {
+      "source": "/lib/x86_64-linux-gnu/libQt5Gui.so.5",
+      "sha256": "75b66a3edcbc7f3013b4180b76919b49c22ce652372eba45ead8aac9121625e0"
+    },
+    "libQt5Core.so.5": {
+      "source": "/lib/x86_64-linux-gnu/libQt5Core.so.5",
+      "sha256": "f3a46b3517fdcd82d70b9a2c01ba707499860e2eab328bb98445d8afce59ca37"
+    },
+    "libpython3.10.so.1.0": {
+      "source": "/home/aserdargun.guest/cpu-lab-tools/openroad/usr/lib/x86_64-linux-gnu/libpython3.10.so.1.0",
+      "sha256": "d7bc028c6a98ac8c17edeada13609ea36db324d7f49c26b6ca93994e8c830453"
+    },
+    "libstdc++.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    "libm.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    "libgcc_s.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    "libc.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    "libreadline.so.8": {
+      "source": "/lib/x86_64-linux-gnu/libreadline.so.8",
+      "sha256": "0a079f958147699f7bb5bf228406a5d878dc2387fe9cdc5cce6f3e35e20380fc"
+    },
+    "libdl.so.2": {
+      "source": "/lib/x86_64-linux-gnu/libdl.so.2",
+      "sha256": "c2994527172cc23b7fb0f7d611b71e00a37da27af12c2e5e9e0dc1a742886c96"
+    },
+    "libpthread.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libpthread.so.0",
+      "sha256": "90491a21ce44efcf3bd4b65ec82501c091d7ebe7f8d9b341dd01d721001d9ecd"
+    },
+    "libGL.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libGL.so.1",
+      "sha256": "67f471213576d225d38347a0b6d2a08a231980685301ff6461bd74d3994e5027"
+    },
+    "libpng16.so.16": {
+      "source": "/lib/x86_64-linux-gnu/libpng16.so.16",
+      "sha256": "eac265b3506df0d9110dd9143e1d0503e2daabafe1d98b23fac8ca17b71d1f6b"
+    },
+    "libharfbuzz.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libharfbuzz.so.0",
+      "sha256": "4562cfcfd18935324ba3ac74a944898b867ab87a56e925ab3e351ba773f1513e"
+    },
+    "libmd4c.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libmd4c.so.0",
+      "sha256": "d5f418d0ea9aec6b41efbb924580a1fb61e9113bcae36d5ad3f322269822d1b3"
+    },
+    "libdouble-conversion.so.3": {
+      "source": "/lib/x86_64-linux-gnu/libdouble-conversion.so.3",
+      "sha256": "d1c9583dc7c1fce6f0a0701dd4356448425e45afe15c0946c23edeaf93d9397c"
+    },
+    "libicui18n.so.74": {
+      "source": "/lib/x86_64-linux-gnu/libicui18n.so.74",
+      "sha256": "3550b194eb2cf2e6f798f033eb9ca279d498c21296b4a18790ce158d2023e47b"
+    },
+    "libicuuc.so.74": {
+      "source": "/lib/x86_64-linux-gnu/libicuuc.so.74",
+      "sha256": "7560aadde38e5f4237a47a1ddd5891f9b36768a77a60faae30beee003ac01901"
+    },
+    "libpcre2-16.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libpcre2-16.so.0",
+      "sha256": "4dfa8a4023270763b8ca1654dc4f59f835393b1ae78085a19369228f8109a671"
+    },
+    "libzstd.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libzstd.so.1",
+      "sha256": "0a2128bc10841fb29e76d08d945864dfb0b6a66da5df6df5d8299197439e54bb"
+    },
+    "libglib-2.0.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libglib-2.0.so.0",
+      "sha256": "96ef9163aee942bdc09e6f4a1acd2fd6b178c03af824c569741440d63ac9f4f4"
+    },
+    "libexpat.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libexpat.so.1",
+      "sha256": "286682ecbc5e59a638963b1a4e6351e65eb32fcf4bdcb9cb7569b6a61fe06a8d"
+    },
+    "libtinfo.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libtinfo.so.6",
+      "sha256": "e6089d7bb95eee5b545f3770dd69095b0bca47d26701cad145af429561d16306"
+    },
+    "libGLdispatch.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libGLdispatch.so.0",
+      "sha256": "ca01a91104c8887b3d8e59499b58cbb8f604cc285666b50d9ec888eb0c915182"
+    },
+    "libGLX.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libGLX.so.0",
+      "sha256": "16fc8a37eea9210dc83c57eeff5aedc10ab4c6673f2f97e8bb6ee103df657b40"
+    },
+    "libfreetype.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libfreetype.so.6",
+      "sha256": "c14c53c5baff12afafb610c6312fb879e9bb77e80dd42e27504d52d6d8bcd059"
+    },
+    "libgraphite2.so.3": {
+      "source": "/lib/x86_64-linux-gnu/libgraphite2.so.3",
+      "sha256": "fcfaf843b25b58b88319ced52f826fc8213a661f3693c916f88641eddffe05b8"
+    },
+    "libicudata.so.74": {
+      "source": "/lib/x86_64-linux-gnu/libicudata.so.74",
+      "sha256": "ddbb3718b8bd9cbd780e5ab08b4503c30a6c4fa0706ebe5d074ed6b596c1714e"
+    },
+    "libpcre2-8.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libpcre2-8.so.0",
+      "sha256": "e00576d71d81d3ba0cfa4903c835a44a8723aac96f72f79ff75200b4cff9071b"
+    },
+    "libX11.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libX11.so.6",
+      "sha256": "c5b5d782bd9cab3420a62df88f5c991507edf3331a89f98464ddbc538c37b879"
+    },
+    "libbz2.so.1.0": {
+      "source": "/lib/x86_64-linux-gnu/libbz2.so.1.0",
+      "sha256": "cc08c9f50a8009ffd6391e0116a100369b11ca9238fa52392c019e6645b122a1"
+    },
+    "libbrotlidec.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+      "sha256": "64d8a5019d4c294b89fde1193343ea324bbd8603652554e5545f0a01595fa2c5"
+    },
+    "libxcb.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libxcb.so.1",
+      "sha256": "7958a0136b121bdc4c708968569ad152a9ed208ab026e2537b1005dde64ca440"
+    },
+    "libbrotlicommon.so.1": {
+      "source": "/lib/x86_64-linux-gnu/libbrotlicommon.so.1",
+      "sha256": "a91ead095d2c80520c55a89057bbe10b031a075340442e63f44b310f93883a1b"
+    },
+    "libXau.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libXau.so.6",
+      "sha256": "8040da3f8516c1acfe39f04ff022480cdb273705ba5e7a4ca70bbdb1527cd67a"
+    },
+    "libXdmcp.so.6": {
+      "source": "/lib/x86_64-linux-gnu/libXdmcp.so.6",
+      "sha256": "667d97d6da16016400ab10de9f83ef4ab209ceb6adf68ff9650225ec13e723b0"
+    },
+    "libbsd.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libbsd.so.0",
+      "sha256": "e86cd4f0019f42c2ba5e60602e0edc8694d2948377d98c3654d0f6bddb5254bb"
+    },
+    "libmd.so.0": {
+      "source": "/lib/x86_64-linux-gnu/libmd.so.0",
+      "sha256": "423e18586b6ea740f4465afd64f7a9a4cb7264ed979c8e7256f9085af5345fef"
+    },
+    "ld-linux-x86-64.so.2": {
+      "source": "/lib64/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    }
+  }
+}

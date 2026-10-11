@@ -1,0 +1,17 @@
+[options]
+mode bmc
+depth 18
+
+[engines]
+smtbmc z3
+
+[script]
+read -formal -sv execute.sv cpu.sv properties.sv
+prep -top properties
+memory_map
+opt
+
+[files]
+../rtl/execute.sv
+../rtl/cpu.sv
+properties.sv

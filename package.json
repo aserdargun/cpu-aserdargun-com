@@ -1,0 +1,36 @@
+{
+  "name": "cpu-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5196 --strictPort",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "sim:build": "python3 scripts/build_sim.py",
+    "sim:test": "vitest run tests/rtl.test.ts",
+    "synth": "python3 scripts/synthesize.py",
+    "spice": "python3 scripts/spice.py",
+    "test:e2e": "playwright test",
+    "compile:c": "python3 scripts/compile_c.py"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.3.0",
+    "idb-keyval": "^6.2.2",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^5.0.3"
+  }
+}

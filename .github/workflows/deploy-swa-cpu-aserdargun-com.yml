@@ -37,9 +37,7 @@ jobs:
           action: upload
           app_location: dist
           skip_app_build: true
-          skip_api_build: true
           output_location: ""
-          production_branch: main
       - name: Save test and release evidence
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

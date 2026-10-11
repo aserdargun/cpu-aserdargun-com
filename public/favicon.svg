@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="CPU">
+  <title>CPU</title>
+  <rect width="320" height="320" rx="64" fill="#121310"/>
+  <circle cx="160" cy="142" r="108" fill="#c8ff36"/>
+  <g fill="none" stroke="#0c0d0a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="108" y="90" width="104" height="104" rx="10"/>
+    <rect x="138" y="120" width="44" height="44" rx="4"/>
+    <path d="M128 72v18m32-18v18m32-18v18M128 194v18m32-18v18m32-18v18M90 110h18m-18 32h18m-18 32h18M212 110h18m-18 32h18m-18 32h18"/>
+  </g>
+  <text x="160" y="296" text-anchor="middle" fill="#c8ff36" font-family="Inter, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-2">CPU</text>
+</svg>

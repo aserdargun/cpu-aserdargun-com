@@ -21,7 +21,7 @@ jobs:
       - name: Validate published engineering evidence
         run: python3 scripts/verify_release.py
       - name: Run portable assembler, RTL WASM and mapped-gate tests
-        run: npx vitest run tests/assembler.test.ts tests/rtl.test.ts tests/gates.test.ts --reporter=json --outputFile=ci-tests.json
+        run: npx vitest run tests/assembler.test.ts tests/rtl.test.ts tests/gates.test.ts --maxWorkers=1 --testTimeout=90000 --reporter=json --outputFile=ci-tests.json
       - name: Verify DEF parser
         run: python3 -m unittest tests/def_routes_test.py
       - name: Build and verify static artifact
